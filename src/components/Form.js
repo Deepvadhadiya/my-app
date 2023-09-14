@@ -60,7 +60,7 @@ export default function Form(props) {
                     <textarea className="form-control" value={text} style={{ backgroundColor: props.mode === 'light' ? 'white' : 'grey', color: props.mode === 'light' ? 'black' : 'white' }} onChange={handleOnChange} id="myBox" rows={8}></textarea>
                 </div>
                 <button className="btn btn-primary m-2" onClick={handleUpClick}>Convert to Uppercase</button>
-                <button className="btn btn-primary m-2" onClick={handleLoClick}>Convert to Uppercase</button>
+                <button className="btn btn-primary m-2" onClick={handleLoClick}>Convert to Lowercase</button>
                 <button className="btn btn-primary m-2" onClick={handleClearClick}>Clear Text</button>
                 <button className="btn btn-primary m-2" onClick={handleSpeak}>Text Speak</button>
                 <button className="btn btn-primary m-2" onClick={handleCopy}>Copy Text</button>
